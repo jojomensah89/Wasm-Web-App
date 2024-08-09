@@ -8,8 +8,8 @@ use yew_router::Routable;
 pub enum Route {
     #[at("/profile")]
     Profile,
-    #[at("/contact-us")]
-    ContactUs,
+    #[at("/contact")]
+    Contact,
     #[at("/")]
     Login,
 }
@@ -17,7 +17,7 @@ pub enum Route {
 pub fn switch(route: Route) -> Html {
     match route {
         Route::Profile => html! {<Profile/>},
-        Route::ContactUs => html! {<Contact/>},
+        Route::Contact => html! {<Contact/>},
         _ => html! {<Login/>},
     }
 }
