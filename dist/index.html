@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<link rel="modulepreload" href="/wasm_web_app-5ac95a6989b23953.js" crossorigin=anonymous integrity="sha384-t5il78xy1viqnI0cS5yqA7sirpSxo6tdv1gue6FVskWGaC4caeM3UNWJ8roYG46r">
-<link rel="preload" href="/wasm_web_app-5ac95a6989b23953_bg.wasm" crossorigin=anonymous integrity="sha384-VL9ttC5jDy3B5JmzouFHd64xBSipxlPjbBwBameWTogl+1Ytgi1Mk3N8axwJyhBU" as="fetch" type="application/wasm"></head>
+<head>  <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Trunk | Yew | </title>
+
+
 <body>
-<script type="module" nonce="Qnuh59PUEfaRsMtyHEHcLA==">
+<script type="module" nonce="6o88Oifq+PhkRg62ll0zsQ==">
 import init, * as bindings from '/wasm_web_app-5ac95a6989b23953.js';
 const wasm = await init('/wasm_web_app-5ac95a6989b23953_bg.wasm');
 
@@ -144,4 +146,6 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
 
 })()
 </script></body>
-</html>
+
+<link rel="modulepreload" href="/wasm_web_app-5ac95a6989b23953.js" crossorigin=anonymous integrity="sha384-t5il78xy1viqnI0cS5yqA7sirpSxo6tdv1gue6FVskWGaC4caeM3UNWJ8roYG46r">
+<link rel="preload" href="/wasm_web_app-5ac95a6989b23953_bg.wasm" crossorigin=anonymous integrity="sha384-VL9ttC5jDy3B5JmzouFHd64xBSipxlPjbBwBameWTogl+1Ytgi1Mk3N8axwJyhBU" as="fetch" type="application/wasm"></html>
